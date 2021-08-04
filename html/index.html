@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <script src="../scripts/calculatorscript.js"></script>
+        <link rel="stylesheet" type="text/css" href="../styles/calculatorstyle.css" >
+ 
+    </head>
+    <body>
+        <div class="mainaccess">
+            <h3>Virtual Calculator</h3>
+           <div class="result" id="result">
+            </div>
+            <div class="row1">
+                <button onclick="updateScreen(`+`)">+</button>
+                <button  onclick="updateScreen(`-`)">-</button>
+                <button  onclick="updateScreen(`*`)">*</button>
+                <button onclick="updateScreen(`/`)">/</button>
+            </div>
+            <div class="row2">
+                <button onclick="updateScreen(7)">7</button>
+                <button onclick="updateScreen(8)">8</button>
+                <button onclick="updateScreen(9)">9</button>
+                <button onclick="updateScreen(0)">0</button>
+            </div>
+            <div class="row3">
+                <button onclick="updateScreen(3)">3</button>
+                <button onclick="updateScreen(4)">4</button>
+                <button onclick="updateScreen(5)">5</button>
+                <button onclick="updateScreen(6)">6</button>
+            </div>
+            <div class="row4">
+                <button onclick="updateScreen(2)">2</button>
+                <button onclick="updateScreen(1)">1</button>
+                <button onclick="updateScreen(`.`)">.</button>
+                <button onclick="solve()">=</button>
+            </div>
+            <div class="row5">
+                <button onclick="clr()">clear</button>
+                <button onclick="backspace()"><-</button>
+            </div>
+        </div>
+    </body>
+</html>

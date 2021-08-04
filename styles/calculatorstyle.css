@@ -1,0 +1,28 @@
+button{
+width:100px;
+height: 50px;
+}
+body{ 
+   background-color: rgb(217, 227, 212);
+}
+h3{
+   text-align: center;
+   font-size: 30px;
+   text-decoration: underline;
+   color: rgb(67, 85, 73);
+}
+.result{
+   justify-content: baseline;
+   font-size: 30px;
+   overflow-wrap: break-word;
+    height: 100px;
+    background-color: rgb(173, 179, 173);
+
+ }
+.mainaccess div{
+   width: 415px;
+   margin: auto;
+   border-radius: 2%;
+   border-style:double;
+   background-color: rgb(146, 167, 150);
+}
